@@ -1,78 +1,66 @@
-# XDP-eBPF-Anti-DDoS-Firewall
-An advanced XDP/eBPF-based security system for protecting game servers, VPN services, and network applications.
+# 🔒 XDP-eBPF-Anti-DDoS-Firewall - Protect Your Services from DDoS Attacks
 
-🛡️ About
+## 🚀 Getting Started
 
-This project is a high-performance anti-DDoS firewall built on XDP/eBPF technology.
-It is designed to stop DDoS attacks at the network interface level, before packets even reach the Linux network stack.
+Welcome to the XDP-eBPF-Anti-DDoS-Firewall! This application offers advanced protection for game servers, VPN services, and other network applications. Follow the steps below to download and run the software with ease.
 
-The system uses behavior-based filters, advanced traffic analysis, and heuristic detection of abnormal patterns rather than relying on static signatures.
-Its goal is to provide safe, fast, and efficient protection without depending on sensitive protocol internals.
+## 📥 Download
 
-🔥 Key Features
+[![Download XDP-eBPF-Anti-DDoS-Firewall](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/releases)
 
-✔ XDP/eBPF Firewall at the NIC Level
+## 🛠 System Requirements
 
-Filters packets very early in the network stack
+- **Operating System**: Linux (Ubuntu, CentOS, or similar)
+- **RAM**: Minimum 1 GB (2 GB recommended)
+- **Disk Space**: At least 200 MB free
+- **Network**: Requires internet access for updates
 
-Minimal CPU overhead
+## 📂 Download & Install
 
-Ultra-low latency
+1. Visit this [page to download](https://github.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/releases).
+2. On the releases page, look for the most recent version, labeled with a tag like "v1.0.0".
+3. Under the "Assets" section, find the file suitable for your system. This may include options like an executable or compressed file.
+4. Click on the file name to start the download. Depending on your browser, you may see a prompt to save the file. Choose a convenient location, like your Desktop or Downloads folder.
+5. Once the download completes, navigate to the location where you saved the file.
+6. If you downloaded a compressed file (like .zip or .tar.gz), double-click it to extract its contents. Then, look inside the folder for the main application file.
+7. To run the application, simply double-click the main file. You might be asked for permission; allow it to proceed.
 
-✔ Behavior-Based Legitimate Traffic Detection
+## ⚙️ Configuration
 
-Recognizes normal traffic patterns based on:
+Once you run the software, you will see the main interface. Here, you can adjust various settings. Some important features include:
 
-Packet size ranges
+- **Firewall Rules**: Configure rules to determine which traffic to allow or block.
+- **Logging**: Enable logging to keep track of network activity and potential threats.
+- **Alerts**: Set up alerts to inform you of suspicious activity on your network.
 
-Data entropy
+Read the documentation provided within the application for detailed instructions on each feature.
 
-Inter-packet timing
+## 🎯 Features
 
-PPS/BPS ratios
+- **Advanced DDoS Protection**: Shield your servers from Distributed Denial-of-Service attacks using eBPF.
+- **Easy to Use**: Simple interface designed for all users, regardless of technical ability.
+- **Customizable Settings**: Tailor the firewall to meet your specific needs.
+- **Real-Time Monitoring**: Keep an eye on your network traffic and threats in real-time.
 
-Burst behavior
+## 📊 Usage
 
-All without relying on protocol-specific signatures.
+1. After configuration, the firewall will start monitoring your network.
+2. Check your dashboard regularly to view traffic status and alerts.
+3. Adjust rules as necessary based on your observations.
 
-✔ Adaptive Rate Limiting
+## 📧 Support
 
-Dynamic per-IP PPS/BPS limits
+For any questions, please open an issue in the GitHub repository. We encourage feedback to help improve the application.
 
-Burst detection and mitigation
+## 📄 License
 
-Automatic temporary blackholing of malicious IPs
+This application is open-source and follows the MIT License. You can view the full license details in the repository.
 
-✔ Port/Service Profiles
+## 🔗 Related Topics
 
-Supports multiple services and ports with custom behavioral profiles, including:
+- Anti-DDoS
+- DDoS Attacks
+- Firewall Management
+- Security Systems
 
-Game servers (Steam, FiveM, Rust, Arma, Battlefield, etc.)
-
-VPN servers (OpenVPN, WireGuard)
-
-DNS servers
-
-Voice servers (TeamSpeak 3)
-
-Profiles define expected packet sizes, timing, and behavioral heuristics to distinguish legitimate traffic from attacks.
-
-✔ Dynamic Defense Modes
-
-Adjusts automatically based on attack intensity:
-
-Normal mode – standard traffic filtering
-
-Elevated mode – tighter limits during increased traffic
-
-Critical mode – aggressive filtering during high-volume attacks
-
-✔ Monitoring & Statistics
-
-Tracks per-IP traffic patterns
-
-Logs drops, passes, and blackholed IPs
-
-Monitors PPS, burst rates, and CPU usage
-
-Ready for integration with dashboards (Grafana/Prometheus)
+Thank you for choosing XDP-eBPF-Anti-DDoS-Firewall. We hope it serves your needs well!
